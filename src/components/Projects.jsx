@@ -13,7 +13,7 @@ const Projects = () => {
         {
             name: "Ascent",
             desc: "Ascent is a dynamic social networking platform that celebrates shared experiences, creativity, and authentic connections",
-            link: "https://socio-path-pedia-frontend.vercel.app/",
+            link: "https://socio-path-pedia-frontend.vercel.app/home",
             git: "https://github.com/7ommyShelby/SocioPathPedia-frontend",
             tech: ["React.js", "Express.js", "MongoDB", "Cloudinary", "Multer", "Material UI", " Redux toolkit",
                 "Redux Persist", "React DropZone"],
@@ -64,7 +64,7 @@ const Projects = () => {
 
 
     return (
-        <div className='border-b border-neutral-800 pb-4'>
+        <div  id='projects' className='border-b border-neutral-800 pb-4'>
             <h1 className='text-center text-4xl my-20'>Projects</h1>
             <div>
                 {
@@ -75,9 +75,11 @@ const Projects = () => {
                                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 1 }} className='w-full lg:w-1/4'>
                                         <motion.img whileHover={{ scale: 1.1 }}
                                             whileTap={{ scale: 0.9 }} className='w-[250px] h-[150px] mb-6 rounded-lg' src={e.src} alt={e.name} />
+
                                     </motion.div>
+
                                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className='w-full max-w-xl lg:w-3/4'>
-                                        <h6 className='mb-2 font-semibold'>{e.name}</h6>
+                                        <h6 className='mb-2 font-semibold text-xl'>{e.name}</h6>
                                         <p className='mb-4 text-neutral-400'>{e.desc}</p>
                                         <div className='flex gap-2 flex-wrap'>
                                             {
@@ -90,7 +92,10 @@ const Projects = () => {
                                                     </>)
                                                 })
                                             }
-
+                                        </div>
+                                        <div className='mt-5 flex justify-between'>
+                                            <a target='_blank' className='rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-green-800' href={e.link}>Live</a>
+                                            <a target='_blank' className='rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-amber-900' href={e.git}>Code</a>
                                         </div>
                                     </motion.div>
                                 </div>
