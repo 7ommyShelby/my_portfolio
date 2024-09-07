@@ -40,7 +40,7 @@ const Projects = () => {
             desc: "A simple game designed to amp your memorization",
             link: "https://7ommyshelby.github.io/Match_Pair/",
             git: "https://github.com/7ommyShelby/Match_Pair",
-            tech: ["HTML", "CSS", "JavaSCript"],
+            tech: ["HTML", "CSS", "JavaScript"],
             src: memory
         },
         {

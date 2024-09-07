@@ -23,6 +23,7 @@ function App() {
           <Tech />
           <Projects />
           <Contacts />
+          <p className="text-center mb-7">© Arya Kumar - All Rights Reserved</p>
         </div>
       </div>
     </>
