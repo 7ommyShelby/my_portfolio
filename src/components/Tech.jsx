@@ -1,8 +1,10 @@
 import React from 'react'
-import { FaReact, FaNodeJs, FaJava, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJava, FaGitAlt,FaHtml5,FaCss3Alt } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMui } from "react-icons/si";
 import { animate, motion } from "framer-motion"
 
 
@@ -44,20 +46,36 @@ const Tech = () => {
                     <SiExpress className='text-3xl' />
                 </motion.div>
 
-                <motion.div variants={animatevariants(2)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <motion.div variants={animatevariants(1)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <FaNodeJs className='text-3xl text-green-500' />
                 </motion.div>
 
-                <motion.div variants={animatevariants(1)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <motion.div variants={animatevariants(2)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <FaJava className='text-3xl text-orange-400' />
                 </motion.div>
 
-                <motion.div variants={animatevariants(2)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <motion.div variants={animatevariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <IoLogoJavascript className='text-3xl text-yellow-500' />
                 </motion.div>
 
-                <motion.div variants={animatevariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <motion.div variants={animatevariants(1)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <FaGitAlt className='text-3xl' />
+                </motion.div>
+
+                <motion.div variants={animatevariants(2)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <RiTailwindCssFill className='text-3xl text-blue-600' />
+                </motion.div>
+
+                <motion.div variants={animatevariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiMui className='text-3xl text-amber-600' />
+                </motion.div>
+                
+                <motion.div variants={animatevariants(1)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <FaCss3Alt className='text-3xl text-red-700' />
+                </motion.div>
+
+                <motion.div variants={animatevariants(1)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <FaHtml5 className='text-3xl text-cyan-700' />
                 </motion.div>
 
             </motion.div>

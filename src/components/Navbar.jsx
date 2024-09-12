@@ -16,20 +16,20 @@ const Navbar = () => {
         <>
             <nav className='mb-20 flex items-center justify-between z-20 py-6 '>
                 <div className='flex flex-shrink-0 items-center'>
-                    <h1 className='text-3xl text-white'>AK</h1>
+                    <h1 className='text-3xl text-white hover:text-violet-900 hover:scale-125 ease-out delay-200  transition-all'>AK</h1>
                 </div>
 
 
                 <div className='flex gap-4 text-2xl items-center justify-center'>
-                    <a target='_blank' href="http://github.com/7ommyShelby">
+                    <motion.a whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} target='_blank' href="http://github.com/7ommyShelby">
                         <FaGithub className='hover:text-zinc-600 transition-all ease-in-out' />
-                    </a>
-                    <a target='_blank' href="http://linkedin.com/in/aryakumar98">
-                        <FaLinkedin className='hover:text-cyan-800 transition-all ease-in-out' />
-                    </a>
-                    <a target='_blank' href="http://x.com/DeathDrogo">
+                    </motion.a>
+                    <motion.a whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} target='_blank' href="http://linkedin.com/in/aryakumar98">
+                        <FaLinkedin className='hover:text-sky-800 transition-all ease-in-out' />
+                    </motion.a>
+                    <motion.a whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} target='_blank' href="http://x.com/DeathDrogo">
                         <FaSquareXTwitter className='hover:text-zinc-600 transition-all ease-in-out' />
-                    </a>
+                    </motion.a>
                 </div>
             </nav>
         </>
