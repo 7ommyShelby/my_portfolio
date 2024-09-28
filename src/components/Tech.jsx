@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaReact, FaNodeJs, FaJava, FaGitAlt,FaHtml5,FaCss3Alt } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJava, FaGitAlt, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -33,7 +33,9 @@ const Tech = () => {
             <motion.h1 whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 100 }} transition={{ duration: 1 }} className='my-20 text-center text-4xl'>
                 Technologies
             </motion.h1>
+
             <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -100 }} transition={{ duration: 1 }} className='flex  flex-wrap items-center justify-center gap-4'>
+            
                 <motion.div variants={animatevariants(1)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <FaReact className='text-3xl  text-cyan-500' />
                 </motion.div>
@@ -69,7 +71,7 @@ const Tech = () => {
                 <motion.div variants={animatevariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <SiMui className='text-3xl text-amber-600' />
                 </motion.div>
-                
+
                 <motion.div variants={animatevariants(1)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <FaCss3Alt className='text-3xl text-red-700' />
                 </motion.div>

@@ -6,6 +6,8 @@ import memory from '../assets/memory.png'
 import gemini from '../assets/gemini.png'
 import password from '../assets/password.png'
 import todolist from '../assets/todolist.png'
+import todolistjs from '../assets/todolistjs.png'
+import tictac from '../assets/tictac.png'
 
 const Projects = () => {
 
@@ -36,12 +38,12 @@ const Projects = () => {
             src: codepen
         },
         {
-            name: "Memory Game",
-            desc: "A simple game designed to amp your memorization",
-            link: "https://7ommyshelby.github.io/Match_Pair/",
-            git: "https://github.com/7ommyShelby/Match_Pair",
-            tech: ["HTML", "CSS", "JavaScript"],
-            src: memory
+            name: "Password Generator",
+            desc: "Get a password according your requirement here",
+            link: "https://optimized-password-generator.vercel.app/",
+            git: "https://github.com/7ommyShelby/optimized-password-generator",
+            tech: ["React.js", "Tailwind CSS"],
+            src: password
         },
         {
             name: "To Do List",
@@ -52,13 +54,31 @@ const Projects = () => {
             src: todolist
         },
         {
-            name: "Password Generator",
-            desc: "Get a password according your requirement here",
-            link: "https://optimized-password-generator.vercel.app/",
-            git: "https://github.com/7ommyShelby/optimized-password-generator",
-            tech: ["React.js", "Tailwind CSS"],
-            src: password
+            name: "Memory Game",
+            desc: "A simple game designed to amp your memorization",
+            link: "https://7ommyshelby.github.io/Match_Pair/",
+            git: "https://github.com/7ommyShelby/Match_Pair",
+            tech: ["HTML", "CSS", "JavaScript"],
+            src: memory
         },
+
+        {
+            name: "To Do List (JavaScript)",
+            desc: "A list so that you do not forget your objectives",
+            link: "https://7ommyshelby.github.io/todolist_js/",
+            git: "https://github.com/7ommyShelby/todolist_js",
+            tech: ["JavaScript", "HTML", "CSS"],
+            src: todolistjs
+        },
+        {
+            name: "Tic Tac Toe",
+            desc: "A Nostalgic Game from the back of a notebook",
+            link: "https://7ommyshelby.github.io/miniJs_projects/tic_tac_toe/",
+            git: "https://github.com/7ommyShelby/miniJs_projects/tree/main/tic_tac_toe",
+            tech: ["JavaScript", "HTML", "CSS"],
+            src: tictac
+        },
+
 
     ]
 
