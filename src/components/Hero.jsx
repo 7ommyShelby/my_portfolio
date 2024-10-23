@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/pro.jpeg'
+import profile from '../assets/pro.jpg'
 import { motion } from "framer-motion"
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
                 </div>
                 <div className='w-full lg:w-1/2 lg:p-8'>
                     <div className='flex justify-center '>
-                        <motion.img initial={{x : 100, opacity : 0}} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 , delay : 0.5}} className='rounded-lg' src={profile} alt="" />
+                        <motion.img initial={{x : 100, opacity : 0}} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 , delay : 0.5}} className='rounded-lg w-[65%]' src={profile} alt="" />
                     </div>
                 </div>
             </div>
