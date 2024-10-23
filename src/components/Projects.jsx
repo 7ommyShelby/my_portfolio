@@ -8,6 +8,7 @@ import password from '../assets/password.png'
 import todolist from '../assets/todolist.png'
 import todolistjs from '../assets/todolistjs.png'
 import tictac from '../assets/tictac.png'
+import emp from '../assets/emp.png'
 
 const Projects = () => {
 
@@ -20,6 +21,14 @@ const Projects = () => {
             tech: ["React.js", "Express.js", "MongoDB", "Cloudinary", "Multer", "Material UI", " Redux toolkit",
                 "Redux Persist", "React DropZone"],
             src: ascent
+        },
+        {
+            name: "Employee Management System",
+            desc: "A comprehensive Employee Management System built with React.js, Node.js, Express.js, and MongoDB. This system provides a user-friendly interface for managing employee data, including adding, updating, and deleting employee records.",
+            link: "https://skyniche-client.vercel.app/",
+            git: "https://github.com/7ommyShelby/skyniche_client",
+            tech: ["React.js", "Express.js", "MongoDB", "Cloudinary", "Multer", "Tailwind CSS"],
+            src: emp
         },
         {
             name: "ALL-Star AI",
@@ -44,14 +53,6 @@ const Projects = () => {
             git: "https://github.com/7ommyShelby/optimized-password-generator",
             tech: ["React.js", "Tailwind CSS"],
             src: password
-        },
-        {
-            name: "To Do List",
-            desc: "A list so that you do not forget your objectives",
-            link: "https://todo-list-2-red.vercel.app/",
-            git: "https://github.com/7ommyShelby/Todo-List-II",
-            tech: ["React.js", "Tailwind CSS"],
-            src: todolist
         },
         {
             name: "Memory Game",
